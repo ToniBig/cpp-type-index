@@ -3,7 +3,7 @@ Dispatching types using injected base class
 
 --
 
-Appently it is possible to dispatch type information from a hierachy of classes by putting a virtual (not pure) method in the base class that returns the type index. So that the following works with `BaseVirtual` as base class.
+Apparently it is possible to dispatch type information from a hierachy of classes by putting a virtual (not pure) method in the base class that returns the type index. So that the following works with `BaseVirtual` as base class.
 ```c++
   #include <iostream>
   #include <map>
